@@ -1,0 +1,7 @@
+import n2
+import n3
+
+class Woman (nn){
+int a = 3
+float ff = 4.2
+}

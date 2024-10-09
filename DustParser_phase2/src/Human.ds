@@ -1,0 +1,76 @@
+import Hospital
+import Library
+import Nothing
+
+class Human(Nothing, Nothing1, Nothing2){
+    Nose nose
+    Leg[2] legs
+    bool isHungry
+    Hand[2] hands
+
+
+    def Human1 (Nose nose) {
+        self.nose = nose
+    }
+
+    def Voice speak() {
+        Voice voice
+        Voice voice
+        int calories
+
+        return voice
+
+    }
+
+    def void eat(Food food, int c) {
+        calories += c
+        String ali = "kamran"
+        bool javadjoon = false
+
+
+
+        while(self.isHungry) {
+           Food newFood = Food()
+
+            if( calories > 2 ) {
+                print("hello")
+                self.eat(newFood, z)
+
+
+            }
+
+
+        }
+        Hand[2] hands
+    }
+
+    def bool checkIsHungry() {
+        int y = 1
+
+        x = y
+        hands[2] = b
+
+        while (self.isHungry) {
+            hands[1] = 1
+            hands[2] = z
+
+            b = hands[3]
+
+        x = checkIsHungrey()
+
+
+        y = hand[1]
+        x = y
+
+        }
+
+        return true
+    }
+
+    def bool javad() {
+        bool isHunaagry = checkIsHungry()
+
+        return true
+    }
+
+}

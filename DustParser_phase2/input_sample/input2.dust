@@ -1,0 +1,8 @@
+class Input2(){
+Nose nose
+Hand[2] hands
+Leg[2] legs
+int calories
+bool isHungry
+Drink soda
+}

@@ -1,0 +1,79 @@
+import Doctor
+import Nurse
+import Patient
+import DateTime
+import Time
+
+class Man {
+    Doctor[100] doctors
+    Nurse[50] nurses
+    Patient[1000] patients
+    HospitalBed[2000] hospital_beds
+
+    def void hospitalization(Date startDate, Date endDate, Doctor doctor, Nurse nurse, int price) {
+            bool hospital_bed_is_empty
+            for bed in hopital_beds {
+                if (bed.occupied() == false) {
+                       if (price <= bed.price) {
+                            bed.occupied = true
+                            bed.startDate = startDate
+                            bed.endDate = endDate
+                            bed.doctor = doctor
+                            bed.nurse = nurse
+                            hospital_bed_is_empty = false
+                       }
+
+                } else {
+                    hospital_bed_is_empty = false
+                }
+            }
+    }
+
+    def int empty_bed(Book book) {
+        int count = 0
+
+        for bed in hospital_beds {
+            if (bed.isEmpty == true) {
+                count += 1
+            }
+        }
+
+        return count
+    }
+
+    def void doctor_enter(Doctor staff, Time enter_time, Time exit_time) {
+        if (staff.exists() == true) {
+            staff.enter_time = enter_time
+            staff.exit_time = exit_time
+        }
+    }
+
+    def void nurse_enter(Nurse staff, Time enter_time, Time exit_time) {
+        if (staff.exists() == true) {
+            staff.enter_time = enter_time
+            staff.exit_time = exit_time
+        }
+    }
+
+    def DateTime shifts(DateTime shift_time, Time enter_time, Time exit_time, Day weekday) {
+        Time workTime
+        Doctor doctor
+        Nurse nurse
+
+        if (shift_time == "day") {
+            doctor.workedHours = 8
+
+        }  else {
+            nurse.workedTimes = 8
+        }
+
+    }
+
+    def void main() {
+        AsianPatiens[100] asianPatient
+        HospitalProperty[1000] hospitalProperties
+        float hospitalRate
+
+    }
+
+}
