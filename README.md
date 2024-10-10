@@ -1,1 +1,3 @@
 Implemented a parser for Dust programming language.
+  1. In the first phase we check if a written code in Dust language have any indentation error. Then, we build a symbol table to tokenize words into class_name, method_name, and ...
+  2. In the second phase by using the symbol table, we are able to spot errors such as not having the same name of a constructure and the class name as specified in the Dust language.
